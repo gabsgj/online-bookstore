@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link rel="stylesheet" href="regstyle.css">
+    <link rel="icon" type="image/png" href="open-book.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="regpage">
+        <h2>User Registration</h2>
+        <forms name="inp">
+            <label for="name">Enter Name : </label>
+            <input type="text" id="name" placeholder="Gabriel"> 
+            <p id="nameerror"></p>
+            <label for="number">Enter Phone Number : </label>
+            <input type="number" id="number" placeholder=""> 
+            <p id="numerror"></p>
+            <label for="email">Enter E-mail ID: </label> 
+            <input type="text" id="email" placeholder="E-mail">
+            <p id="emailerror"></p>
+            <label for="password">Enter Password : </label>
+            <input type="password" id="password" placeholder="">
+            <p id="error"></p>
+
+            <div class = "submit">
+                <button type="button" onclick="verifyLogin()">Submit</button>
+                <p id="message"></p>
+            </div>
+
+        </forms>
+    </div>
+    <script src="regscript.js"></script>
+</body>
+</html>
