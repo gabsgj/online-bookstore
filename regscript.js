@@ -42,7 +42,7 @@ function validateEmail(message) {
       message.innerHTML = "Invalid email format.";
       return false;
     }
-    return true;s
+    return true;
 }
   
 function validatePhone(message) {
